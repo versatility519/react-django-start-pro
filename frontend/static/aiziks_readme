@@ -1,0 +1,8 @@
+1. This static frontend part will be the compiled javascript
+so webpack takes our react application in the src/components folder
+    using the index.js as the entry point and compile it down to a file called main.js in the
+    static/frontend folder
+
+    Babel is used for transpiling javascript
+
+    when u run npm run build; it will create static folder with our static assets
